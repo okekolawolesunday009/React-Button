@@ -85,6 +85,6 @@ $ npm start
 
 ## Contact
 
-- Website [your-website.com](https://Okekolawolesunday.netlify.app)
-- GitHub [@your-username](https://github.com/okekolawolesunday009)
+- Website [Okekolawolesunday.netlify.app](https://Okekolawolesunday.netlify.app)
+- GitHub [@okekolawolesunday009](https://https://github.com/okekolawolesunday009/React-Button)
 - Twitter [@OkekolawoleSun3](//twitter.com/OkekolawoleSun3)
