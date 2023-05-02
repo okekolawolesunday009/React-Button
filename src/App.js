@@ -1,23 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+// import Step from "./StepperAnimation/Step";
+// import ButtonList from "./Buttons dev/ButtonList";
+// import InputList from "./Inputs dev/InputList";
+import HomePage from "./Stepper/pages/HomePage";
+import { FirstPage, MainPage, SecondPage } from "./Stepper/pages/Pages";
+import InputList from "./Inputs dev/InputList";
+// import { FirstPage, MainPage, SecondPage } from "./pages/Pages";
+
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="">
+      <BrowserRouter>
+    
+    
+      <Routes>
+      {/* <Route path='/' element={<MainPage/>}/> */}
+      
+        <Route path='/' element ={<InputList/>}></Route>
+         {/* <Route path="/" element={ <ButtonList/>}></Route> */}
+         {/* <Route path="/" element={ <Step/>}></Route> */}
+         {/* <Route path="/" element={ <Step/>}></Route> */}
+
+      
+      </Routes>
+      </BrowserRouter>
+    
+     
     </div>
   );
 }
