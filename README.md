@@ -37,7 +37,7 @@
 
 ## Overview
 
-![screenshot](https://github.com/okekolawolesunday009/React-Button/blob/main/src/Buttons%20dev/dev%20cha%20Button.png)
+![screenshot](https://devchallenges-blogs.web.app/how-to-replicate-design/)
 
 Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
 
